@@ -57,6 +57,19 @@ class EnglishNumberToWords extends NumberToWordsLanguage {
     'nineteen'
   ];
 
+  static const List<String> _digitNames = [
+    'zero',
+    'one',
+    'two',
+    'three',
+    'four',
+    'five',
+    'six',
+    'seven',
+    'eight',
+    'nine',
+  ];
+
   static const List<String> _tensNames = [
     '',
     'ten',
@@ -165,7 +178,7 @@ class EnglishNumberToWords extends NumberToWordsLanguage {
     String decimalWords = pointWord;
     for (int i = 0; i < decimalPartStr.length; i++) {
       int digit = int.parse(decimalPartStr[i]);
-      decimalWords += ' ${_numNames[digit]}';
+      decimalWords += ' ${_digitNames[digit]}';
     }
 
     String result = '$integerWords $decimalWords';
