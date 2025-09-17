@@ -510,6 +510,7 @@ class _NumberConverterHomeState extends State<NumberConverterHome>
       'AUD': 'Australian Dollar (A\$)',
       'CAD': 'Canadian Dollar (C\$)',
       'CHF': 'Swiss Franc (CHF)',
+      'AED': 'UAE Dirham (AED)',
     };
 
     return Card(

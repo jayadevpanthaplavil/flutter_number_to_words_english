@@ -288,6 +288,13 @@ class EnglishNumberToWords extends NumberToWordsLanguage {
       'minorPlural': 'centimes',
       'decimals': '2'
     },
+    "AED": {
+      "major": "dirham",
+      "majorPlural": "dirhams",
+      "minor": "fils",
+      "minorPlural": "fils",
+      "decimals": "2"
+    }
   };
 
   @override
